@@ -5,7 +5,16 @@ function Menu() {
   const [selectedMenu, setSelectedMenu] = useState(null);
 
   const menuCategories = [
-  
+    {
+      title: "Espresso Based",
+      image: "/Espresso-Based.jpg",
+      menuImage: "/Espresso-Based.jpg"
+    },
+    {
+      title: "Non-Espresso Drinks",
+      image: "/Non-Espresso.jpg",
+      menuImage: "/Non-Espresso.jpg"
+    },
     {
       title: "Cafe Mocha",
       image: "/CafeMocha.jpg",
@@ -16,11 +25,7 @@ function Menu() {
       image: "/Ramen.jpg",
       menuImage: "/Ramen.jpg"
     },
-    {
-      title: "Non-Espresso Drinks",
-      image: "/Non-Espresso.jpg",
-      menuImage: "/Non-Espresso.jpg"
-    },
+   
     {
       title: "Shakes & Blends",
       image: "/Shakes.jpg",
